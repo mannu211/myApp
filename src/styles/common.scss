@@ -1,0 +1,162 @@
+@import "variables";
+
+.header-style {
+  color: #ffffff;
+  background: #3f51b5 !important;
+  margin: 0px;
+  text-align: center;
+  padding: 10px;
+}
+
+.searchIcon {
+  position: absolute !important;
+  right: 10px;
+  top: 98px;
+  font-size: 15px !important;
+}
+
+.inputBox {
+  width: 200px !important;
+  margin-top: 10px;
+  margin-left: 84.8%;
+  margin-bottom: 6px;
+}
+
+.zIndex100 {
+  z-index: 100;
+}
+
+.relative {
+  position: relative;
+}
+
+.mr-lt15 {
+  margin-left: 15px !important;
+}
+
+.mr-tp10 {
+  margin-top: 10px !important;
+}
+
+.mr-tp15 {
+  margin-top: 15px !important;
+}
+
+.mr-rt15 {
+  margin-right: 15px !important;
+}
+
+.pad-tp3 {
+  padding-top: 3px;
+}
+
+.pd-lt5 {
+  padding-left: 5px;
+}
+
+.pd-lt10 {
+  padding-left: 10px;
+}
+
+.capitalize {
+  text-transform: capitalize !important;
+}
+
+.minWidth90 {
+  min-width: 90px !important;
+}
+
+.minWidth60 {
+  min-width: 60px !important;
+}
+
+.page-under-construction {
+  height: 87vh;
+  background: #ffffff;
+  img {
+    position: absolute;
+    top: 15%;
+    left: 37%;
+  }
+}
+
+.checkbox-color {
+  span {
+    font-size: 1em !important;
+    svg {
+      height: 0.9em !important;
+      path {
+        color: #ffffff !important;
+      }
+    }
+  }
+}
+
+.footer-content {
+  background: #ff8e00;
+  position: fixed;
+  height: 25px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.red-color {
+  color: $dark-red;
+}
+
+.yellow-color {
+  color: $color-yellow;
+}
+
+.font16 {
+  font-size: 16px !important;
+}
+
+.vertical-middle {
+  vertical-align: middle !important;
+}
+
+.expanded-style {
+  display: inline-flex;
+  padding-left: 48px;
+  > div {
+    width: 260px;
+    padding: 0px 16px;
+  }
+  // > div:nth-child(2) {
+  //   width: 275px;
+  //   padding:0px 16px;
+  // }
+  // > div:nth-child(3) {
+  //   width: 275px;
+  //   padding:0px 16px;
+  // }
+  // > div:nth-child(4) {
+  //   width: 275px;
+  //   padding:0px 16px;
+  // }
+  // > div:nth-child(5) {
+  //   width: 275px;
+  //   padding:0px 16px;
+  // }
+  i {
+    width: 30px;
+    color: #3f51b5 !important;
+  }
+  span {
+    top: -7px;
+    position: relative;
+  }
+}
+
+.button-style {
+  text-transform: none !important;
+  background: #5bc0de !important;
+  max-height: 30px !important;
+  color: #ffffff !important;
+  font-weight: 400;
+}
